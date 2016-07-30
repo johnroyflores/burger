@@ -24,7 +24,6 @@ router.post('/burgers/insert', function(req, res){
 
 router.put('/burgers/update/:id', function(req, res){
 	var identify = 'id=' + req.params.id;
-	// this needs to be fixed all the way through the pipe
 	burger.updateOne(identify, req.body.devoured,function(data){
 		res.redirect('/burgers');
 	})
