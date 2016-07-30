@@ -15,6 +15,10 @@
   "bugs": {
     "url": "https://github.com/johnroyflores/burger/issues"
   },
+  "devDependencies": {},
+  "engines": {
+    "node": "6.2.2"
+  },
   "homepage": "https://github.com/johnroyflores/burger#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
